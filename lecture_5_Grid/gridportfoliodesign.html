@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 10vh;
+            border: 2px solid black;
+        }
+        div{
+            border: 2px solid black;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .item2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .item3{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .item4{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        .item5{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+        .item6{
+            grid-column-start: 1;
+            grid-column-end: 2.5;
+            grid-row-start: 6;
+            grid-row-end: 7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Header</div>
+        <div class="item2"><h1>HERO SECTION</h1></div>
+        <div class="item3">hero section img</div>
+        <div class="item4">about</div>
+        <div class="item5">work</div>
+        <div class="item6">img1</div>
+        <div class="item7">img1</div>
+        <div class="item8">contact me</div>
+        <div class="item9">Footer</div>
+    </div>
+</body>
+</html>
