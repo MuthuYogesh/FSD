@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter Tight", 'sans-sherif', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 3%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-logo{
+    margin-right: auto;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-btn{
+    margin-left: 20px;
+}
+
+button{
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    row-gap: 15px;
+
+}
+
+.hero-section h1{
+    font-size: 45px;
+}
+
+.hero-section p{
+    font-size: 20px;
+    color: #828282;
+}
+
+.content1 img{
+    width: 38vw;
+    height: auto;
+}
+
+.cont-text{
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cont-text p{
+    font-size: 20px;
+    color: #828282;
+}
+.content1, .content2{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    row-gap: 15vh;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+
+.cont2-heading{
+    padding: 10vh 0 5vh 10vw;
+}
+
+.content2{
+    margin-bottom: 10vh;
+}
+
+.cont-text img{
+    width: 32px;
+    height: 32px;
+}
+
+#footer-hero{
+    background-color: #F7F7F7;
+}
+
+footer{
+    display: flex;
+    padding: 5vh 10vw;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left img{
+    width: 40px;
+    height: 40px;
+}
+
+.left p{
+    margin-left: 10px;
+}
+
+.right{
+    display: flex;
+    column-gap: 10vw;
+}
+
+.page, .topic{
+    padding-bottom: 3vh;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.page{
+    color: #454545;
+}
