@@ -7,6 +7,7 @@ let b = 5;
 const c = 1.5;
 
 
+
 console.log(a);
 console.log(b);
 console.log(c);

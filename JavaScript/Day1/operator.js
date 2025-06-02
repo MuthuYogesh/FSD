@@ -32,3 +32,9 @@ console.log(typeof c)
 // 8. Type Operator  (typeof var_name, obj_name instanceof class_name)
 
 
+//Extra read: 
+//  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+// https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables
+// https://developer.mozilla.org/en-US/docs/Glossary/Scope 
+// operator in js: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
