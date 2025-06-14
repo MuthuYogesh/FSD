@@ -1,0 +1,43 @@
+button{
+    width: 10vw;
+    height: 8vh;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    background-color: #d59362;
+    color: #f0efec;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.start{
+    width: 40%;
+}
+
+.start:hover{
+    transform: scale(0.99, 0.99) translate(2px, 1%);
+    box-shadow:  rgba(164, 164, 164, 0.8) 2px 5px 20px 1px;
+}
+
+.stop{
+    width: 45%;
+    background-color: #f0efec;
+    color: #d59362;
+    border: 2px solid #d59362;
+}
+
+.stop:hover{
+    transform: scale(0.99, 0.99) translate(2px, 1%);
+    box-shadow:  rgba(213,147,98,0.8) 2px 5px 20px 1px;
+}
+
+.reset{
+    background-color: rgb(243, 77, 77);
+    width: 90%;
+}
+
+.reset:hover{
+        transform: scale(0.99, 0.99) translate(2px, 1%);
+    box-shadow:  rgba(243,77,77,0.8) 2px 5px 20px 1px;
+}

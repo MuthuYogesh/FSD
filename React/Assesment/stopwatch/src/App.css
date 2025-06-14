@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 50vh;
+    margin: 25vh 25vw;
+    background-color: #f0efec;
+    box-shadow: 1px 1px 10px;
+    border-radius: 25px;
+    display: flex;
+}
